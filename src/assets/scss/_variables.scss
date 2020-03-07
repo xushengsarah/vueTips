@@ -1,0 +1,39 @@
+$color-black: #000;
+$color-white: #fff;
+
+//字体色
+$text-color-default: #2a2d44 !default;
+$text-color-inverse: $color-white !default;
+
+// 主题色
+$theme-color:#3b9ef3 !default;
+$theme-color-hover: #50adfd !default;
+
+//背景色
+$background-color-default: $color-white !default;
+
+// 字体大小
+$font-size-x-large: 1.5rem !default; // 24px
+$font-size-x-larger: 2.25rem !default; // 36px
+
+// 圆角大小
+$border-radius-medium: 5px !default; 
+
+// 边框
+$border-color-default: #bcc6dd !default;
+$border-radius: 2px !default; 
+
+//animation
+$default-animation: ease .3s !default;
+
+// 按钮
+$button-padding-default-x: 0.9375rem !default;
+$button-height-default: 2.25rem !default;
+$button-border-color-default: $border-color-default !default;
+$button-text-color-default: $text-color-default !default;
+$button-background-color-default: $background-color-default !default;
+$button-color-hover: $theme-color-hover !default;
+$button-text-color-inverse: $text-color-inverse !default;
+$button-background-color-primary: $theme-color !default;
+$button-border-color-primary: $theme-color !default;
+$button-min-width-md: 6.25rem !default;
